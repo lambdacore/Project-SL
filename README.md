@@ -8,13 +8,12 @@ Group 5 - 2022
 - pip install django-tailwind
 - npm install
 - npm i daisyui
+- python manage.py makemigrations
+- python manage.py migrate
 - Open a terminal in the main project folder.
 - python manage.py tailwind start (CSS)
 - run- python manage.py runserver (Backend)
 - go to local host
-
-Most likely you should only need to just do steps 4 - 7.
-run- means run in your terminal.
 
 Make sure you read this doc in particular so you know how to make a superuser for yourself.
 https://docs.djangoproject.com/en/4.1/topics/auth/default/
@@ -42,8 +41,6 @@ Poetry is a tool for dependency management and packaging in Python.
 - CSRF protection https://docs.djangoproject.com/en/4.1/howto/csrf/
 - Migrations https://docs.djangoproject.com/en/4.1/topics/migrations/
 - Meta (Used in forms) https://docs.djangoproject.com/en/4.1/ref/models/options/
-- 
-Let mw know if there if more common ones we should add.
 
 ## Tail Wind / CSS - deprecated
 
@@ -51,12 +48,8 @@ A utility-first CSS framework packed with classes like flex
 - Tailwind Docs https://tailwindcss.com/
 - django-tailwind Docs https://django-tailwind.readthedocs.io/en/latest/
 
-Note tailwind & django-tailwind - Already installed 
-
 ## DaisyUI tailwind plugin - deprecated
 
 - daisyui Docs https://daisyui.com/
-
-Note - Already installed
 
 
