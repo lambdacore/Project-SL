@@ -11,3 +11,7 @@ class Listing(models.Model):
 	owner = models.ForeignKey(
 		AppUser, on_delete = models.CASCADE,
 	)
+
+	def __str__(self):
+		returnvalue = f"{self.owner}-{self.title}"
+		return returnvalue
